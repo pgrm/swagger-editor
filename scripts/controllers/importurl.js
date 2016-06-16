@@ -10,7 +10,7 @@ SwaggerEditor.controller('UrlImportCtrl', function FileImportCtrl($scope,
   $scope.url = null;
   $scope.error = null;
   $scope.opts = {
-    useProxy: true
+    useProxy: false
   };
 
   var fetch = function(url) {

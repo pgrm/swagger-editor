@@ -17,7 +17,7 @@
 
       <ul class="dropdown-menu" uib-dropdown-menu>
         <li>
-          <a dropdown-toggle ng-click="newProject()" tabindex="-1" track-event="file new"><i class="fa fa-file-text"></i>&nbsp;<span>New</span></a>
+
         </li>
         <li>
           <a dropdown-toggle id="open-example" ng-click="openExamples()" tabindex="-1" track-event="file open-example"><i class="fa fa-folder-open highlighted"></i>&nbsp;<span>Open Example&hellip;</span></a>
@@ -96,7 +96,7 @@
 
     <div class="dropdown" uib-dropdown ng-if="servers && servers.length && !disableCodeGen">
       <button class="btn btn-default" id="ServerMenu" uib-dropdown-toggle>
-        <span>Generate Server</span>
+        <span>Generate Server <strong>(sends data to external service!)</strong></span>
         <span class="caret"></span>
       </button>
       <ul uib-dropdown-menu class="dropdown-menu server-list">
@@ -111,7 +111,7 @@
 
     <div class="code-gen dropdown" uib-dropdown ng-if="clients && clients.length && !disableCodeGen">
       <button class="btn btn-default" id="ClientMenu" uib-dropdown-toggle>
-        <span>Generate Client</span>
+        <span>Generate Client <strong>(sends data to external service!)</strong></span>
         <span class="caret"></span>
       </button>
 
