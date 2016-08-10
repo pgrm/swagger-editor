@@ -40,7 +40,7 @@ SwaggerEditor.service('Codegen', function Codegen($http, defaults, Storage,
           }
           $http.post(url, {spec: spec}).then(function redirect(resp) {
             if (angular.isObject(resp.data) && resp.data.link) {
-              window.location = resp.data.link;
+              window.top.location = resp.data.link;
               rsolve();
             } else {
               reject('Bad response from server: ' + JSON.stringify(resp));

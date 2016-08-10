@@ -1,5 +1,5 @@
 <div class="modal-header">
-  <h3 class="modal-title">Import From URL</h3>
+  <h3 class="modal-title">Import From URL <strong>(overwrites the current data!)</strong></h3>
 </div>
 <div class="modal-body">
   <div class="form-group">
@@ -7,7 +7,7 @@
     <input type="text" class="form-control" autofocus="true" ng-model="url" ng-change="fetch(url)" auto-focus="200">
     <p>
       <label>
-        <input value="{{opts.useProxy}}" type="checkbox" ng-model="opts.useProxy" ng-change="fetch(url)">Use CORS proxy
+        <input value="{{opts.useProxy}}" type="checkbox" ng-model="opts.useProxy" ng-change="fetch(url)">Use CORS proxy <strong>(sends data to external service!)</strong>
       </label>
     </p>
   </div>
