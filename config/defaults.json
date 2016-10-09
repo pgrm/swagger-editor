@@ -7,7 +7,7 @@
   },
   "analytics": {
     "google": {
-      "id": "UA-51231036-1"
+      
     }
   },
   "disableCodeGen": false,
@@ -28,14 +28,14 @@
     "twitter.yaml"
   ],
   "autocompleteExtension": {},
-  "useBackendForStorage": false,
+  "useBackendForStorage": true,
   "backendThrottle": 200,
   "keyPressDebounceTime": 200,
   "backendEndpoint": "/editor/spec",
-  "useYamlBackend": false,
+  "useYamlBackend": true,
   "disableFileMenu": false,
-  "headerBranding": false,
-  "disableNewUserIntro": false,
+  "headerBranding": true,
+  "disableNewUserIntro": true,
   "enableTryIt": true,
   "brandingCssClass": "",
   "importProxyUrl": "https://cors-it.herokuapp.com/?url=",
